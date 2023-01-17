@@ -15,14 +15,8 @@ func main() {
 	Wild.ShowMap()
 	Wild.ShowSliceInterface()
 	Wild.ShowStruct()
-
-	var myA Wild.Animal
-	myA.Name = "Tokio"
-	fmt.Println(myA)
-
 	Wild.ShowPointer()
-
-	Wild.MessGo()
-	Wild.Channels()
+	Wild.ShowGoRoutinesWithWG()
+	Wild.ShowGoRoutinesWithChannels()
 
 }

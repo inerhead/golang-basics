@@ -9,8 +9,10 @@ func ShowPointer() {
 		brand: "DELL",
 	}
 	myPc.duplicateRam(2)
-
+	fmt.Printf("\n\n")
+	fmt.Println("POINTER")
 	fmt.Println("PC", myPc)
+	fmt.Printf("\n\n")
 
 }
 
